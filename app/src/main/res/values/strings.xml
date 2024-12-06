@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">haseeb_lab_major_assignment</string>
+    <!-- App name -->
+
+
+    <!-- MainActivity strings -->
+    <string name="add_note">Add Note</string>
+    <string name="delete">Delete</string>
+
+    <!-- AddNoteActivity strings -->
+    <string name="note_title">Note Title</string>
+    <string name="note_description">Note Description</string>
+    <string name="save">Save</string>
+
+    <!-- Error messages -->
+    <string name="error_title_required">Title is required!</string>
+    <string name="error_description_required">Description is required!</string>
+</resources>

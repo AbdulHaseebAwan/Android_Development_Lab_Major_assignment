@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    android:background="#729774"
+    app:cardElevation="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#729774"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvNoteTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvNoteDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvNoteTitle"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <!-- New TextView to display the category -->
+        <TextView
+            android:id="@+id/tvNoteCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvNoteDescription"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/black"
+            android:background="#729774"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/delete"
+            android:backgroundTint="@color/colorAccent"
+            android:textColor="@color/white"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+
+            />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
